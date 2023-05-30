@@ -1,5 +1,5 @@
 # GetWeatherForecast
-GetWeatherForecast é um aplicativo de previsão do tempo desenvolvido em [kotlin](https://kotlinlang.org/) que utiliza os poderosos componentes de arquitetura do Android e o padrão MVVM (Model-View-ViewModel) para fornecer aos usuários informações meteorológicas precisas provenientes da API [OpenWeather](https://openweathermap.org/).
+GetWeatherForecast é um aplicativo de previsão do tempo desenvolvido em [kotlin](https://kotlinlang.org/) que utiliza os poderosos componentes de arquitetura do Android e o padrão MVVM (Model-View-ViewModel) para fornecer aos usuários informações meteorológicas precisas provenientes da API [OpenWeather](https://openweathermap.org/). Para a interface do usuário, ele usa o Jetpack Compose, o kit de ferramentas moderno do Android para criar uma interface do usuário nativa.
 ## Componentes da arquitetura do Android:
 * [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel).
   * GetWeatherForecast usa o componente ViewModel dos componentes de arquitetura do Android para gerenciar e armazenar dados relacionados à interface do usuário de maneira consciente do ciclo de vida. Isso garante que os dados persistam nas alterações de configuração e sejam facilmente acessíveis aos componentes da interface do usuário.
